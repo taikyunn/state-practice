@@ -10,6 +10,7 @@ import Element from './Element';
 import Form from './Form';
 import FormValidation from './FormValidation';
 import FormValidation2 from './FormValidation2';
+import Context from './Context';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -24,6 +25,7 @@ root.render(
     <Form />
     <FormValidation />
     <FormValidation2 />
+    <Context />
   </React.StrictMode>
 );
 
